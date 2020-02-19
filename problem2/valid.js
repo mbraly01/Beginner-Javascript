@@ -25,12 +25,12 @@ function valid() {
     }
     if (sum % 10 === 0) {
 
-        if (number.length() === 16){
+        if (number.length === 16){
             if (number.charAt(0) === "4"){
                 console.log("valid Visa")
             }
         }
-        else if (number.length() === 15) {
+        else if (number.length === 15) {
             if (number.charAt(0) == "3" && number.charAt(1) == "4" || number.charAt(1) == "7"){
                 console.log("valid AMEX")
             }
